@@ -1,0 +1,27 @@
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.headerContent Input {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: white;
+}
+.searchbar {
+  justify-content: center;
+  display: flex;
+}
+.headerContent {
+  background: white;
+}
+
+.headerContent .user {
+  display: flex;
+  align-items: center;
+}
+
+.headerContent .user svg {
+  color: black;
+}

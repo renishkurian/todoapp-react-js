@@ -1,0 +1,37 @@
+.dashboard {
+  display: flex;
+  flex: 1;
+}
+.dashboard .searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.9;
+}
+.dashboard .header {
+  display: flex;
+  /* flex: 0.7; */
+}
+.dashboard .header input {
+  min-width: 300px;
+}
+.sideBar {
+  display: flex;
+  flex: 0.15;
+  min-width: 150px;
+}
+.body {
+  flex: 1;
+}
+.sideBar .sidebarContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
